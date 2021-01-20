@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.list {
+    width: 70%;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #FFF;
+    border-radius: 6px;
+
+    box-shadow: 0px 6px 23px -6px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 0px 6px 23px -6px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 6px 23px -6px rgba(0,0,0,0.65);
+}
+
+#products {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    border-spacing: 15px 25px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#products td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#products tr:hover {background-color: #ddd;}
+
+#products th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: #F96F6D;
+    color: white;
+    border-radius: 4px;
+}
+
+.select-options select {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+
+    -moz-appearance:none;
+    -webkit-appearance:none; 
+    appearance:none;
+
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+#products input {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    max-width: 70px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total span {
+    font-size: 22px;
+}
+
+.total button {
+    padding: 10px;
+    background: #F96F6D;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.3s;
+
+    box-shadow: 0px 1px 28px -11px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 1px 28px -11px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 28px -11px rgba(0,0,0,0.4);
+}
+
+.total button:hover {
+    background: #1B2330;
+}
