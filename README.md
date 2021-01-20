@@ -1,6 +1,6 @@
 ### Saudações
 
-Este projeto faz parte do processo seletivo da empresa TDS Media
+Este projeto faz parte de um processo seletivo para vaga de dev React
 
 Para executar o app, siga as seguintes instruções:
 
